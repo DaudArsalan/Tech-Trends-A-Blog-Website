@@ -1,0 +1,54 @@
+.blogPosts {
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: center;
+}
+.blogInfo {
+  max-width: 100vw;
+}
+.blogPosts h3 {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.blogPosts p {
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 3rem;
+  line-height: 2rem;
+  max-width: 60vw;
+}
+.blogImage {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .blogPosts {
+    padding: 5rem 2rem;
+  }
+  .blogImage {
+    display: none;
+  }
+  .blogPosts p {
+    max-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blogPosts p {
+    max-width: 70vw;
+  }
+  .blogPosts {
+    padding: 5rem 5rem;
+  }
+  .blogImage {
+    width: 30rem !important;
+    height: 20rem !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .blogImage {
+    width: 35rem !important;
+    height: 25rem !important;
+  }
+}

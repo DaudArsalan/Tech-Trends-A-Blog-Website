@@ -1,0 +1,63 @@
+.about {
+  padding: 5rem 10rem;
+}
+.aboutImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+.aboutInfo {
+  max-width: 60vw;
+}
+.aboutHeading {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.aboutPara {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 5rem 2rem;
+  }
+  .image {
+    display: none;
+  }
+  .aboutInfo {
+    max-width: 100vw;
+  }
+  .aboutHeading {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 5rem 5rem;
+  }
+  .image {
+    width: 30rem;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .about {
+    padding: 5rem 5rem;
+  }
+  .image {
+    max-width: 50rem;
+    max-height: 30rem;
+  }
+}

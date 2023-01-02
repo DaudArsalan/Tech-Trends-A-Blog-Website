@@ -1,0 +1,55 @@
+.blog {
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: center;
+}
+.blogHeading {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 6rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.blogCardSection {
+  max-width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+.cardContainer {
+  max-width: 300px;
+  height: auto;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cardImage img {
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-height: auto;
+}
+
+.cardBody h3 {
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardBody p {
+  font-size: 14px;
+  margin: 8px 0 16px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4rem;
+}
+.cardBody span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.7rem;
+}
